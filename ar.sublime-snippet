@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+.run(${1:Module}Run)
+
+function ${1:Module}Run($log, ${2}){
+	
+}
+]]></content>
+	<tabTrigger>ar</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS run definition</description>
+</snippet>

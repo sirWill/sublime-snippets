@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:module.name}',[
+	'${2}'
+])
+]]></content>
+	<tabTrigger>am</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS module definition</description>
+</snippet>

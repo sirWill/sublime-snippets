@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+.factory('${1:Name}', ${1:Name}Factory)
+
+/**
+ * ${1:Name} Factory — ${3}
+ */
+function ${1:Name}Factory($log, ${2}){
+	var o = {};
+
+	return o;
+};
+
+]]></content>
+	<tabTrigger>af</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS factory definition</description>
+</snippet>

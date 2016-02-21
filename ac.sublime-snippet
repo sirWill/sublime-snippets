@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+.controller('${1:Name}Ctrl', ${1:Name}Controller)
+
+/**
+ * ${1:Name} Controller — ${3}
+ */
+function ${1:Name}Controller($log, ${2}){
+	var s = this;
+
+};
+
+]]></content>
+	<tabTrigger>ac</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS controller definition</description>
+</snippet>

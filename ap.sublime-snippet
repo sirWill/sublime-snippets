@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+.provider('${1:ProviderName}', ${1:ProviderName}ProviderFunction)
+
+function ${1:ProviderName}ProviderFunction(${2}){
+	
+	return {
+		$get: function(){
+			var o = {};
+
+			return o;
+		} /* $get */
+	}
+}
+
+]]></content>
+	<tabTrigger>ap</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS provider definition</description>
+</snippet>

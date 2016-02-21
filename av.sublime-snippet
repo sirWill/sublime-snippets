@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[.value('${1:ValueName}', {
+		${2:KeysValueData}
+	})
+]]></content>
+	<tabTrigger>av</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS value definition</description>
+</snippet>

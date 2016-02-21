@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+$log.log('${1:Message}');
+]]></content>
+	<tabTrigger>al</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS $log.log</description>
+</snippet>

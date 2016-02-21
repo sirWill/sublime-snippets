@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[.constant('${1:NAME}', '${2:Value}')
+]]></content>
+	<tabTrigger>acn</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS constant definition</description>
+</snippet>

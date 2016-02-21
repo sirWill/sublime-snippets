@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+.config(${1:Name}Config)
+
+/**
+ * ${1:Name} Config
+ */
+function ${1:Name}Config(${2}){
+
+};
+]]></content>
+	<tabTrigger>acf</tabTrigger>
+	<scope>source.js,source.ts</scope>
+  <description>AngularJS config definition</description>
+</snippet>
