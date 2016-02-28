@@ -2,7 +2,7 @@
 	<content><![CDATA[
 .run(${1:Module}Run)
 
-function ${1:Module}Run($log, ${2}){
+function ${1:Module}Run(\$log, ${2}){
 	
 }
 ]]></content>

@@ -5,7 +5,7 @@
 /**
  * ${1:Name} Factory — ${3}
  */
-function ${1:Name}Factory($log, ${2}){
+function ${1:Name}Factory(\$log, ${2}){
 	var o = {};
 
 	return o;

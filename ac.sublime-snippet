@@ -5,12 +5,10 @@
 /**
  * ${1:Name} Controller — ${3}
  */
-function ${1:Name}Controller($log, ${2}){
+function ${1:Name}Controller(\$log, ${2}){
 	var s = this;
 
-};
-
-]]></content>
+};]]></content>
 	<tabTrigger>ac</tabTrigger>
 	<scope>source.js,source.ts</scope>
   <description>AngularJS controller definition</description>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+.state('${1:state}',{
+	url: '/${1:state}${2}',
+	controller: '${1:state}${3}Ctrl'
+	controllerAs: '${4}',
+	authenticate: ${5:false}
+})]]></content>
+	<tabTrigger>st</tabTrigger>
+	<scope>source.js,source.ts</scope>
+	<description>$stateProvider state</description>
+</snippet>
